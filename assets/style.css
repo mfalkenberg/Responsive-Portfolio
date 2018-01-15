@@ -228,10 +228,7 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) {
-	footer {
-		background: red;
-	}
-
+	
 	#about-me {
     	width: 85%;
     }
@@ -274,6 +271,61 @@ input[type=submit] {
 		margin-left: 20px;
 	}
 }
+
+@media only screen and (max-width: 640px) {
+	footer {
+		width: 80%;
+	}
+
+	#about-me {
+		width: 85%;
+	}
+
+	#image-index-maggie {
+		float: none;
+		width: 100%; 
+    	height: auto;
+	}
+
+	aside {
+    	margin-top: 20px;
+    	width: 85%;
+    	margin-left: 0px;
+    	text-align: left;
+    }
+
+    h1 {
+    	float: none;
+    	width: 100%;
+    	text-align: center;
+    }
+
+    nav {
+    	text-align: center;
+    }
+
+	.container-city-left {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
+	.container-city-right {
+		float: none;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.cities {
+		width: 80%;
+		height: auto;
+	}
+
+	.text-block {
+		width: 80%;
+	}
+
 
 
 
