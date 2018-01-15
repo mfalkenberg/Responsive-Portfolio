@@ -227,6 +227,54 @@ input[type=submit] {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	footer {
+		background: red;
+	}
+
+	#about-me {
+    	width: 85%;
+    }
+
+    #image-index-maggie {
+    	float: left;
+    }
+
+    aside {
+    	margin-top: 20px;
+    	width: 85%;
+    	margin-left: 0px;
+    	text-align: left;
+    }
+
+    h3 {
+    	text-align: left;
+    }
+
+    header,
+    .main-content-width
+     {
+    	width: 95%;
+    }
+
+    #contact {
+		width: 85%;
+	}
+
+	#portfolio {
+		width: 85%;
+	}
+
+	.container-city-left {
+		float: left;
+	}
+
+	.container-city-right {
+		float: left;
+		margin-left: 20px;
+	}
+}
+
 
 
 
